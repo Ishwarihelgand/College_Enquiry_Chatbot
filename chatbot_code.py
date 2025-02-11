@@ -24,7 +24,7 @@ class ChatBotApp:
         self.root = root
         self.root.title("BNCOE ChatBot")
         # Load the Word document
-        self.doc = Document("IshwarihelgandResume.pdf")
+        self.doc = Document("Chatbot.pdf")
         # Extract key-value pairs from the document
         self.key_value_pairs = self.extract_key_value_pairs(self.doc)
         # Read conversation pairs from the text file
